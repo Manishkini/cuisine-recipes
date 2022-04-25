@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/719efef3b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cuisine - Favourite Recipes</title>
+</head>
+
+<body onload="setFavouriteRecipeList()">
+
+    <!-- Navigation Bar Start -->
+    <div
+        class="flex flex-row justify-start gap-4 items-center px-2.5 navbar bg-gradient-to-l from-cyan-500 to-blue-500 text-sm md:text-base lg:text-lg">
+        <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="Cuisine-Recipes" width="50"
+                height="50"></a>
+        <a href="index.html"><span class="home"> Home</span></a>
+        <a href="favourite.html"><span class="favorites">Favorites</span></a>
+    </div>
+    <!-- Navigation Bar End -->
+
+    <!-- favourite Recipe List - Start -->
+    <div id="favourite-recipe-list">
+    </div>
+    <!-- favourite Recipe List - End -->
+
+    <script src="js/favourite.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

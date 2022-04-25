@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: blue;
+  color: white;
+}
+
+.logo,
+.home,
+.favorites {
+  cursor: pointer;
+}
+
+/* Normal Search Box */
+.search-div {
+  height: 90vh;
+  /* border: 1px solid green; */
+}
+
+.search-box {
+  height: 6vh;
+  width: 20vw;
+}
+
+.search {
+  height: inherit;
+  width: inherit;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* After Typed Text- Search Box */
+.typed-search-div {
+  height: 10vh;
+  /* border: 1px solid green; */
+}
+
+/* Recipe List */
+
+.single-recipe {
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 gray;
+}
+
+.single-recipe:hover {
+  transform: scale(1.01);
+}
+
+.favourite:hover {
+  transform: scale(1.2);
+}
