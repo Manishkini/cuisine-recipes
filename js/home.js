@@ -77,7 +77,9 @@ const setMealsIntoDiv = (meals) => {
       );
       mealImg.addEventListener(
         'click',
-        () => (window.location.href = '/recipe-detail.html?id=' + meal.idMeal)
+        () =>
+          (window.location.href =
+            '/cuisine-recipes/recipe-detail.html?id=' + meal.idMeal)
       );
       // MEAL IMAGE - END
 
@@ -89,7 +91,9 @@ const setMealsIntoDiv = (meals) => {
       );
       mealInfoDiv.addEventListener(
         'click',
-        () => (window.location.href = '/recipe-detail.html?id=' + meal.idMeal)
+        () =>
+          (window.location.href =
+            '/cuisine-recipes/recipe-detail.html?id=' + meal.idMeal)
       );
 
       // MEAL NAME - START
